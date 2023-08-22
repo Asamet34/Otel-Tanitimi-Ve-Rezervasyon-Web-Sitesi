@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.img img{
+    width: 100%;
+    height: 1080px;  
+    object-fit: cover;
+}
+
+.img .img-text h1{
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+    
+}
+
+.img .icon i{
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img .icon span{
+    position: absolute;
+    left: 25%;
+    top: 63%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.img .icon1 i{
+    position: absolute;
+    left: 31%;
+    top: 60%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img .icon1 span{
+    position: absolute;
+    left: 30%;
+    top: 63%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.img .icon2 i{
+    position: absolute;
+    left: 41%;
+    top: 60%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img .icon2 span{
+    position: absolute;
+    left: 38%;
+    top: 63%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.img .icon3 i{
+    position: absolute;
+    left: 51%;
+    top: 60%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img .icon3 span{
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.img .icon4 p{
+    position: absolute;
+    left: 55%;
+    top: 60%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img .icon4 span{
+    position: absolute;
+    left: 55%;
+    top: 64%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.img .icon5 i{
+    position: absolute;
+    left: 62%;
+    top: 60%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img .icon5 span{
+    position: absolute;
+    left: 60%;
+    top: 63%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.img .icon6 i{
+    position: absolute;
+    left: 70%;
+    top: 60%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img .icon6 span{
+    position: absolute;
+    left: 69%;
+    top: 63%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.img .icon7 i{
+    position: absolute;
+    left: 79%;
+    top: 60%;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img .icon7 span{
+    position: absolute;
+    left: 77%;
+    top: 63%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.slider{
+    width: 1200px;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 500px;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 1200px;
+    height: 700px;
+    object-fit: cover;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 1150px;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.manual-btn:hover{
+    background: #40D3DC;    
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -60%;
+}
+
+
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 1150px;
+    justify-content: center;
+    margin-top: 640px;
+    
+}
+
+.navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 20px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background: #40D3DC;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5 {
+    background: #40D3DC;
+}
+
+.text{
+    margin-left: 70%;
+    margin-top: -650px;
+}
+
+.text p{
+    margin-top: -45px;
+    font-size: 25px;
+    margin-left: 90px;
+}
+
+.img-icon img{
+    width: 80px;
+    margin-top: 40px;
+}
+
+.button .btn1{
+    width: 250px;
+    height: 65px;
+    margin-left: 75%;
+    margin-top: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: darkgrey;
+    color: #fff;
+}
+
+.button .btn1:hover{
+    background-color: burlywood;
+    
+}
+
+.text1 h2{
+    margin-left: 50px;
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+.text1 p{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: black;
+}
+.git{
+    margin-bottom:30px;
+}
+
+.git a{
+    font-size: 35px;
+    color: #2B2730;
+    margin-left: 1100px;
+    text-decoration:none
+}
+
+.git i{
+    font-size: 35px;
+    color: #2B2730;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+
+.AltMenü{
+    background-color: #012b61;
+    height: 500px;
+}
+
+.AltMenü p{
+    color: #fff;
+    margin-left: 2180px;
+    margin-top: -20px;
+}
+
+.altmenu1 h3{
+    cursor: pointer;
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 40px;
+    color: #fff;
+    position: relative;
+    width: max-content;
+}
+
+.altmenu1 h3::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: #fdfdfd;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+}
+
+.altmenu1 h3:hover::after{
+    transform: scale(1);
+}
+
+.altmenu2 h3{
+    cursor: pointer;
+    padding-left: 300px;
+    padding-top: 200px;
+    color:whitesmoke;
+    position:relative;
+    float: left;
+    font-size: small;
+
+}
+
+.altmenu2 h3::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 10%;
+    background-color: #fdfdfd;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+    right: 0;
+    
+}
+
+.altmenu2 h3:hover::after{
+    transform: scale(1);
+}
+
+.altmenu3 h3{
+    cursor: pointer;
+    padding-left: 50px;
+    padding-top: 200px;
+    color:whitesmoke;
+    position:relative;
+    float: left;
+    font-size: small;
+    letter-spacing: 2px;
+
+}
+
+.altmenu3 h3::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 75%;
+    right: 0;
+    background-color: #fdfdfd;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+    
+}
+
+.altmenu3 h3:hover::after{
+    transform: scale(1);
+}
+
+
+.altmenu4 h3{
+    color:gray;
+    position:absolute;
+    font-size: small;
+    letter-spacing: 2px;
+    margin-top: 200px;
+    margin-left: 1000px;
+
+}
+
+.altmenu5 h2{
+    color:white;
+    position:absolute;
+    font-size: large;
+    letter-spacing: 2px;
+    margin-top: -190px;
+    margin-left: 800px;
+}
+
+.altmenu5 i{
+    position:absolute;
+    font-size: xx-large;
+    margin-top: -200px;
+    margin-left: 239px;
+    color: #fdfdfd;
+}
+
+.altmenu6 i{
+    position:absolute;
+    font-size: xx-large;
+    margin-top: -134px;
+    margin-left: 239px;
+    color: #fdfdfd;
+}
+
+.altmenu6 h2{
+    color:white;
+    position:absolute;
+    font-size: large;
+    letter-spacing: 2px;
+    margin-top: -127px;
+    margin-left: 803px;
+}
+
+.altmenu7 i{
+    position:absolute;
+    font-size: xx-large;
+    margin-top: -73px;
+    margin-left: 239px;
+    color: #fdfdfd;
+}
+
+.altmenu7 h2{
+    color:white;
+    position:absolute;
+    font-size: large;
+    letter-spacing: 2px;
+    margin-top: -67px;
+    margin-left: 803px;
+}
+
+
+.social-menu{
+    position: relative;
+    display: flex;
+    margin-left: 2205px;
+}
+
+.social-icon{
+    position: relative;
+}
+
+.social-icon a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+    transform: translateY(0) scale(1);
+    transition: 0.3s;
+}
+
+.social-icon:hover a{
+    transform: translateY(-6px) scale(1.2);
+    margin: 0 10px;
+}
+
+.social-icon:nth-child(1):hover a{
+    background: #1da1f2;
+}
+
+.social-icon:nth-child(2):hover a{
+    background: #3b5998;
+}
+
+.social-icon:nth-child(3):hover a{
+    background: #c32aa3;
+}
+
+.social-icon:nth-child(4):hover a{
+    background: #f70303;
+}
+
+.social-icon a i{
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+.social-icon:hover a i{
+    color: #fff;
+}
